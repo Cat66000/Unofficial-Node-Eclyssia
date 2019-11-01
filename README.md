@@ -1,17 +1,17 @@
-# Node-Eclyssia
+# Unofficial-Node-Eclyssia
 
 A non-official wrapper for the Eclyssia API.
 
 ## Installation
 
 ```
-npm install node-eclyssia --save
+npm install unofficial-node-eclyssia --save
 ```
 
 ## Example
 
 ```js
-const eclyssia = require("node-eclyssia");
+const eclyssia = require("unofficial-node-eclyssia");
 const fs = require("fs");
 
 // Here we use fs to save our transformed image
@@ -50,5 +50,5 @@ eclyssia.endpoints.image // Image category
 *   [Documentation](https://docs.eclyssia-api.tk/)
 *   [Discord (Eclyssia)](https://discord.gg/V5X2t9z)
 *   [Discord (Personnal - Only french)](https://discord.gg/894y5YS)
-*   [Github (source)](https://github.com/Cat66000/Node-Eclyssia)
-*   [NPM](https://www.npmjs.com/package/node-eclyssia)
+*   [Github (source)](https://github.com/Cat66000/Unofficial-Node-Eclyssia)
+*   [NPM](https://www.npmjs.com/package/unofficial-node-eclyssia)
