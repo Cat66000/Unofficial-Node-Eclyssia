@@ -64,10 +64,12 @@ typings/
 # JSDoc config
 jsdoc.json
 out/
-README_JSDoc.md
 
 # Tests
 test/
 
 # VSCode
 .vscode/
+
+# git
+.gitattributes
