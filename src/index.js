@@ -5,9 +5,25 @@ const Err = require("./EclyssiaError.js");
 
 const baseURL = "https://eclyssia-api.tk/api/v1/";
 
+const endpoints = {
+    filters: [
+        "blur",
+        "greyscale",
+        "invert",
+        "pixelate",
+        "posterize",
+        "sepia"
+    ],
+    image: [
+
+    ]
+};
+
 // username is only required by phvideo & captcha endpoints
 const get = async (endpoint = "", url = "", username = "") => {
-    const data = await wump(`${baseURL}${endpoint}?url=${url}?username=${username}`).send();
+    username = encodeURIComponent(username);
+
+    const data = await wump(`${baseURL}${endpoint}?url=${url}&username=${username}`).send();
 
     if (data.statusCode !== 200) {
         throw new Err(data);
@@ -17,4 +33,6 @@ const get = async (endpoint = "", url = "", username = "") => {
 };
 
 
-module.exports = get;
+module.exports = {
+    get, endpoints
+};
