@@ -3,7 +3,6 @@
 const wump = require("wumpfetch");
 const Err = require("./EclyssiaError.js");
 
-const baseURL = "https://eclyssia-api.tk/api/v1/";
 
 const endpoints = {
     filters: [
@@ -20,6 +19,7 @@ const endpoints = {
         "blur",
         "bobross",
         "brazzers",
+        "captcha",
         "gay",
         "jackolantern",
         "phvideo",
@@ -29,6 +29,8 @@ const endpoints = {
         "whatspokemon"
     ]
 };
+
+const baseURL = "https://eclyssia-api.tk/api/v1/";
 
 // username is only required by phvideo & captcha endpoints
 const get = async (endpoint = "", url = "", username = "") => {
