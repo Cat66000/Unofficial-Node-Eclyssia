@@ -1,14 +1,23 @@
 {
-  "name": "Eclyssia",
+  "name": "node-eclyssia",
   "version": "1.0.0",
-  "description": "",
+  "description": "A wrapper for the Eclyssia API",
   "main": "index.js",
+  "repository": "github:Cat66000/Node-Eclyssia",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "eclyssia",
+    "api",
+    "image",
+    "filters",
+    "beautiful",
+    "blur",
+    "triggered"
+  ],
+  "author": "cat66",
+  "license": "GPL-3.0",
   "dependencies": {
     "wumpfetch": "^0.3.1"
   }
