@@ -48,6 +48,7 @@ eclyssia.endpoints.image // Image category
 
 *   [Website](https://eclyssia-api.tk/)
 *   [Documentation](https://docs.eclyssia-api.tk/)
-*   [Discord](https://discord.gg/V5X2t9z)
+*   [Discord (Eclyssia)](https://discord.gg/V5X2t9z)
+*   [Discord (Personnal)](https://discord.gg/894y5YS)
 *   [Github (source)](https://github.com/Cat66000/Node-Eclyssia)
 *   [NPM](https://www.npmjs.com/package/node-eclyssia)
