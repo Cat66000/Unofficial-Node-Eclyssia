@@ -1,7 +1,7 @@
 {
   "name": "node-eclyssia",
   "version": "1.0.0",
-  "description": "A wrapper for the Eclyssia API",
+  "description": "A non-official wrapper for the Eclyssia API",
   "homepage": "https://github.com/Cat66000/Node-Eclyssia",
   "bugs": "https://github.com/Cat66000/Node-Eclyssia/issues",
   "main": "index.js",

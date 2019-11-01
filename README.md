@@ -1,0 +1,1 @@
+A (non-official) wrapper for the Eclyssia API

@@ -1,7 +1,7 @@
 'use strict';
 
 const wump = require("wumpfetch");
-const Err = require("./EclyssiaError.js/index.js");
+const Err = require("./EclyssiaError.js");
 
 const baseURL = "https://eclyssia-api.tk/api/v1/";
 
@@ -18,4 +18,3 @@ const get = async (endpoint = "", url = "", username = "") => {
 
 
 module.exports = get;
-
