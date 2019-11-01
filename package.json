@@ -10,11 +10,18 @@
   "keywords": [
     "eclyssia",
     "api",
+    "get",
+    "endpoint",
+    "endpoints",
     "image",
+    "images",
+    "filter",
     "filters",
     "beautiful",
     "blur",
-    "triggered"
+    "triggered",
+    "username",
+    "url"
   ],
   "author": "cat66",
   "license": "GPL-3.0",
