@@ -1,5 +1,4 @@
 module.exports = {
-    filters: require("./src/index.js").filters,
-    image: require("./src/index.js").image,
+    get: require("./src/index.js"),
     version: require("./package.json").version
 };
