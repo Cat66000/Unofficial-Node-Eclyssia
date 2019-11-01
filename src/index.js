@@ -15,7 +15,18 @@ const endpoints = {
         "sepia"
     ],
     image: [
-
+        "beautiful",
+        "blood",
+        "blur",
+        "bobross",
+        "brazzers",
+        "gay",
+        "jackolantern",
+        "phvideo",
+        "prison",
+        "treasure",
+        "triggered",
+        "whatspokemon"
     ]
 };
 
