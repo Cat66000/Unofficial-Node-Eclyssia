@@ -1,3 +1,4 @@
+// @ts-nocheck
 'use strict';
 
 const wump = require("wumpfetch");
@@ -16,7 +17,6 @@ const endpoints = {
     image: [
         "beautiful",
         "blood",
-        "blur",
         "bobross",
         "brazzers",
         "captcha",
