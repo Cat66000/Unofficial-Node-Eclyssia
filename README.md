@@ -17,6 +17,7 @@ const fs = require("fs");
 // Here we use fs to save our transformed image
 // Note : the third parameter (username) is only needed for captcha and phvideo endpoints
 
+// eclyssia.get(endpoint, url, username)
 eclyssia.get("captcha", "https://tse3.mm.bing.net/th?id=OIP.YQiA-ZUJloPvmf6hzU3M6AAAAA&pid=Api", "BongoCat")
     .then(data => {
         // data is a buffer
