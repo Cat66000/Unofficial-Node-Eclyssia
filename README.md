@@ -11,7 +11,7 @@ npm install unofficial-node-eclyssia --save
 ## Example
 
 ```js
-const eclyssia = require("../index.js");
+const eclyssia = require("unofficial-node-eclyssia");
 const fs = require("fs");
 
 // (Crappy code, I know, but it is only for the example)
