@@ -56,7 +56,7 @@ eclyssia.get("captcha", {
 ## Endpoints
 
 ```js
-// It returns a promise, when it is resolved you will obtain an array with all the endpoints
+// It returns a promise, when it is resolved it will returns an array with all the endpoints
 eclyssia.endpoints();
 ```
 
@@ -67,5 +67,6 @@ eclyssia.endpoints();
 *   [Website](https://eclyssia.xyz)
 *   [Documentation](https://docs.eclyssia.xyz)
 *   [Discord (Eclyssia)](https://discord.gg/V5X2t9z)
+*   [Discord (Personal)](https://discord.gg/ZXtEVJm)
 *   [Github (source)](https://github.com/Cat66000/Unofficial-Node-Eclyssia)
 *   [NPM](https://www.npmjs.com/package/unofficial-node-eclyssia)

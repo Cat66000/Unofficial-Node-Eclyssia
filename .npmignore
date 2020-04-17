@@ -63,6 +63,8 @@ typings/
 
 # Tests
 tests/
+example.png
+example2.png
 
 # VSCode
 .vscode/

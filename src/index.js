@@ -17,7 +17,7 @@ const get = async (endpoint = "", params) => {
 
     let data;
     if (endpoint === "meme") {
-        data = await wump(`${baseURL}meme?url=${url}?top=${top}?bottom=${bottom}${width ? `?width=${width}` : ""}${height ? `?height=${height}` : ""}`).send();
+        data = await wump(`${baseURL}meme?url=${url}&top=${top}&bottom=${bottom}${width ? `&width=${width}` : ""}${height ? `&height=${height}` : ""}`).send();
     } else if (["captcha", "phvideo"].includes(endpoint)) {
         data = await wump(`${baseURL}${endpoint}?url=${url}&username=${username}`).send();
     } else {
