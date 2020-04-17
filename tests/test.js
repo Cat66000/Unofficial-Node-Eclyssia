@@ -1,16 +1,3 @@
-# Unofficial-Node-Eclyssia
-
-A non-official wrapper for the Eclyssia API.
-
-## Installation
-
-```
-npm install unofficial-node-eclyssia --save
-```
-
-## Example
-
-```js
 const eclyssia = require("../index.js");
 const fs = require("fs");
 
@@ -23,7 +10,7 @@ const fs = require("fs");
 
 // The params for each endpoint are found in the official Eclyssia documentation
 // eclyssia.get(endpoint, params)
-eclyssia.get("captcha", {
+eclyssia.get("beautiful", {
     url: "https://tse3.mm.bing.net/th?id=OIP.YQiA-ZUJloPvmf6hzU3M6AAAAA&pid=Api",
     username: "BongoCat"
 })
@@ -48,24 +35,9 @@ eclyssia.get("captcha", {
                     fs.writeFileSync("./example2.png", data, "binary");
                 })
                 .catch(console.error);
-        }, 1600);
+        }, 2000);
     })
     .catch(console.error);
-```
 
-## Endpoints
-
-```js
 // It returns a promise, when it is resolved you will obtain an array with all the endpoints
 eclyssia.endpoints();
-```
-
-[Full Eclyssia API documentation](https://docs.eclyssia.xyz)
-
-## Links
-
-*   [Website](https://eclyssia.xyz)
-*   [Documentation](https://docs.eclyssia.xyz)
-*   [Discord (Eclyssia)](https://discord.gg/V5X2t9z)
-*   [Github (source)](https://github.com/Cat66000/Unofficial-Node-Eclyssia)
-*   [NPM](https://www.npmjs.com/package/unofficial-node-eclyssia)

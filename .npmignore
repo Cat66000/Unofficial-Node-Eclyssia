@@ -61,12 +61,8 @@ typings/
 # next.js build output
 .next
 
-# JSDoc config
-jsdoc.json
-out/
-
 # Tests
-test/
+tests/
 
 # VSCode
 .vscode/
