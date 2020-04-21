@@ -1,6 +1,6 @@
 {
   "name": "unofficial-node-eclyssia",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "An unofficial wrapper for the Eclyssia API",
   "homepage": "https://github.com/Cat66000/Unofficial-Node-Eclyssia/#readme",
   "bugs": "https://github.com/Cat66000/Unofficial-Node-Eclyssia/issues",
@@ -25,11 +25,11 @@
     "username",
     "url",
     "unofficial",
-    "non-official"
+    "non-official",
+    "gone",
+    "deprecated"
   ],
   "author": "cat66",
   "license": "GPL-3.0",
-  "dependencies": {
-    "wumpfetch": "^0.3.1"
-  }
+  "dependencies": {}
 }
